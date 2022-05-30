@@ -13,3 +13,6 @@ player.on(
 );
 
 player.setCurrentTime(localStorage.getItem('vid-time'));
+
+
+
