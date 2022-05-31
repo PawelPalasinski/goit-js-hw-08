@@ -19,7 +19,7 @@ function localData() {
   localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
 
-// function to get input data from local storage 
+// function to get input data from local storage
 function getLocalData() {
   let localData = JSON.parse(localStorage.getItem('feedback-form-state'));
   if (localData !== null) {
@@ -28,10 +28,10 @@ function getLocalData() {
   }
 }
 
-// run fuction
+// run function
 getLocalData();
 
-// add listener to submit form button
+// add listener to the submit form button
 feedbackForm.addEventListener('submit', submitData);
 
 // run function at submit and console log input data
